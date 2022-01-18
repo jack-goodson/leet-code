@@ -2,6 +2,7 @@ from typing import List
 
 import self as self
 
+'''easy level'''
 
 class Solution:
 
