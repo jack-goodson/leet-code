@@ -19,7 +19,6 @@ class Solution:
                     flowerbed[pos] = 1
                     flower_counter += 1
             elif pos != 0 and pos != flowerbed_len-1:
-                print(pos)
                 if (flowerbed[pos - 1] == 0) and (flowerbed[pos] == 0) and (flowerbed[pos + 1] == 0):
                     flowerbed[pos] = 1
                     flower_counter += 1
